@@ -1,0 +1,25 @@
+.main{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+p{
+  margin: 10px;
+}
+
+.container p{
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
