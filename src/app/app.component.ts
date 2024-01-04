@@ -14,8 +14,6 @@ import { TEXTS } from '../../text.js';
 
 export class AppComponent {
   text = TEXTS;
-  title = 'My Calculator';
-
   
 
 }

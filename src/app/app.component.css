@@ -4,24 +4,30 @@
 
 h1{
   text-align: center;
-  margin: 10px;
-  padding: 10px;
+  margin: 8px;
+  padding: 8px;
 }
 
 p{
-  margin: 10px;
+  margin: 8px;
 }
 
 .container p{
   display: inline-block;
   flex-direction: column;
   justify-content: center;
-  padding: 10px;
+  padding: 8px;
 }
 
 .calculator-buttons{
-  margin: 10px;
-  padding: 10px;
+  /* margin: 10px; */
+  /* padding: 10px; */
+  transition-duration: 0.4s;
+}
+
+.operation-button{
+  margin: 8px;
+  padding: 8px;
 }
 
 img{
