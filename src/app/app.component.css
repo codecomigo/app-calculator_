@@ -26,6 +26,9 @@ p{
 }
 
 .operation-button{
+  background-color: #00BE9C;
+  color: #ffff;
+  border: none;
   margin: 8px;
   padding: 8px;
 }

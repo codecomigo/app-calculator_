@@ -3,10 +3,10 @@
 
   <div class="container">
     <p>Number 1
-      <input type="number" name="number1">
+      <input type="number" name="number1" [(ngModel)]="firstNumber">
     </p>
     <p>Number 2
-      <input type="number" name="number2">
+      <input type="number" name="number2" [(ngModel)]="secondNumber">
     </p>
   </div>
 
@@ -15,13 +15,13 @@
   <h2>{{ text.CHOOSE_YOUR_OPERATOR }}</h2>
 
   <div class="calculator-buttons">
-    <button class="operation-button" type="button">{{ text.ADITION_BUTTON }}</button>
-    <button class="operation-button" type="button">{{ text.SUBTRACTION_BUTTON }}</button>
-    <button class="operation-button" type="button">{{ text.MULTIPLY_BUTTON }}</button>
-    <button class="operation-button" type="button">{{ text.DIVISION_BUTTON }}</button>
+    <button (click)="addNumbers()" class="operation-button" type="button"><b>{{ text.ADITION_BUTTON }}</b></button>
+    <button (click)="subtractNumbers()" class="operation-button" type="button"><b>{{ text.SUBTRACTION_BUTTON }}</b></button>
+    <button (click)="multiplyNumbers()" class="operation-button" type="button"><b>{{ text.MULTIPLY_BUTTON }}</b></button>
+    <button (click)="divideNumbers()" class="operation-button" type="button"><b>{{ text.DIVISION_BUTTON }}</b></button>
   </div>
 
-  <h2>{{ text.RESULT }}:</h2>
+  <h2>{{ text.RESULT }}: {{ result }}</h2>
 
 </main>
 
